@@ -19,3 +19,6 @@ OpenALPR_on_Debian_Image.sh
 
 Because the raspberry Pi was taking a very long time to comile and build the software. I created a Debian 8 VirtualBox image and tested my install scripts to speed tings up. This new script which I have not ported over to the PI has the newset version the "ffmpeg" library. This means the image processeing from a RSTP source is better. I also found the "ffmpeg" library that comes with OpenCV kept crashing when processing large streams. So this image has the leptonica-1.75.3, Tesseract3.05.00 and OpenCV3.4.0 plus ffmpeg-7:3.4.2-1
 
+setup_debian_image.sh
+
+I use this script to setup the Debian image to take advantage of any Backports I many need. It also runs the update and upgrade.
