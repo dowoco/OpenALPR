@@ -7,7 +7,7 @@ install_OpenALPR_on_Pi.sh
 This will install a working copy of OpenALPR with all its dependancies. It takes a long time for this to build all the source code.
 I have built this on a the "2017-11-29-raspbian-stretch-lite" image and all wored fine.
 This uses the newest version of the dependancies I could get to comile together.
-leptonica-1.75.3, Tesseract3.05.00 and OpenCV3.4.0
+leptonica-1.75.3, Tesseract-3.05.00 and OpenCV-3.4.0
 
 
 show_plate_on_Pi_TFT.py
@@ -17,7 +17,7 @@ This also takes advantage of an installed camara to take pictures, processes the
 
 OpenALPR_on_Debian_Image.sh
 
-Because the raspberry Pi was taking a very long time to comile and build the software. I created a Debian 8 VirtualBox image and tested my install scripts to speed tings up. This new script which I have not ported over to the PI has the newset version the "ffmpeg" library. This means the image processeing from a RSTP source is better. I also found the "ffmpeg" library that comes with OpenCV kept crashing when processing large streams. So this image has the leptonica-1.75.3, Tesseract3.05.00 and OpenCV3.4.0 plus ffmpeg-7:3.4.2-1
+Because the raspberry Pi was taking a very long time to comile and build the software. I created a Debian 8 VirtualBox image and tested my install scripts to speed tings up. This new script which I have not ported over to the PI has the newset version the "ffmpeg" library. This means the image processeing from a RSTP source is better. I also found the "ffmpeg" library that comes with OpenCV kept crashing when processing large streams. So this image has the leptonica-1.75.3, Tesseract-3.05.00 and OpenCV-3.4.0 plus ffmpeg-7:3.4.2-1
 
 setup_debian_image.sh
 
